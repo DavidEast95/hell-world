@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background : #222;
+  font  : 21px sans-serif;
+
+  padding : 2em;
+  margin  : 0;
+
+ }
+ 
+ form {
+  position: relative;
+
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  background: #40e0d0;
+}
+
+#storage {
+  position: relative;
+  background: #40e0d0;
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+ 
+}
+
+h1{
+  position : absolute;
+  font-weight:100;
+  left : 50px;
+  top  : 105px;
+}
+
+#content{
+  position : absolute;
+  font-weight:100;
+  left : 50px;
+  top  : 205px;
+}
+
+
+
+
+#clear {
+  position     : absolute;
+  left         : 290px;
+  top          : 420px;
+  font         : bold .6em sans-serif;
+  padding      : 5px;
+
+  border       : 2px solid #333;
+  border-radius: 5px;
+  background   : none;
+
+  cursor       : pointer;
+}
+
+

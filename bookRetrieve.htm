@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Book Retrieve</title>
+<link rel="stylesheet" type="text/css" href="book.css">
+
+</head>
+
+<body>
+<form>
+   
+   <label for="bookName">Book Name:</label>
+   <input type="text" id="name" /> 
+   
+   
+   <label for="isbn">ISBN:</label>
+   <input type="text" id="isbn" />
+   
+  
+  
+  <div class="button">
+  <input type="button" id="remove" value="Remove Book By Name" />
+  </div>
+  <div class="button">
+  <input type="button" id="removeIsbn" value="Remove Book By ISBN" />
+  </div>
+  <div class="button">
+    <input type="button" id="clear" value="Clear Storage" />
+  </div>
+ 
+  <h1>Book Name and Details...</h1>
+ 
+  <span id="content"></span>
+ </form>
+<script src="retrieve.js"></script>
+</body>
+</html>
